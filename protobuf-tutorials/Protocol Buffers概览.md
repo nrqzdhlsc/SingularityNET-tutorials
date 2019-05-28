@@ -167,8 +167,6 @@ As the system evolved, it acquired a number of other features and uses:
 
 - 服务器RPC接口开始声明为协议文件的一部分，协议编译器生成stub类，用户可以使用服务器接口的实际实现重写这些存根类。
 
-Except as otherwise noted, the content of this page is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/), and code samples are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). For details, see our [Site Policies](https://developers.google.com/terms/site-policies). Java is a registered trademark of Oracle and/or its affiliates.
-
 Protocol buffers现在是Google的**数据语言**——在编写时，在Google代码树中12183.proto份文件里定义了48162种不同的`message`类型。它们既用于RPC系统，也用于在各种存储系统中持久存储数据。
 
 除非另有说明，否则此页面的内容将根据Creative Commons Attribution 4.0许可证进行许可，代码示例将根据Apache 2.0许可证进行许可。有关详细信息，请参阅我们的网站策略。Java是Oracle和/或其附属公司的注册商标。
